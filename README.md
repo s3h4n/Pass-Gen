@@ -6,7 +6,7 @@ Passgen is a simple python program to generate random passwords and validate the
 
 Clone this repository.
 ```bash
-git clone https://github.com/s3h4n/passgen.git
+git clone https://github.com/s3h4n/Pass-Gen.git
 ```
 
 ## Usage 🔥
