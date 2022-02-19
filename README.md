@@ -1,4 +1,4 @@
-# Passgen 🔑
+# Pass-Gen 🔑
 
 Passgen is a simple python program to generate random passwords and validate the strength of any given password.
 
@@ -12,7 +12,7 @@ git clone https://github.com/s3h4n/passgen.git
 ## Usage 🔥
 
 ```python
-python3 -m passgen install
+python3 -m Pass-Gen install
 ```
 
 ## Contributing 🤝

@@ -25,6 +25,14 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")  # Set the name of the window
         MainWindow.setFixedSize(646, 443)  # Set the size of the window
 
+        self.icon = QtGui.QIcon()
+        self.icon.addPixmap(
+            QtGui.QPixmap("Pass-Gen/resources/PG-removebg-preview.png"),
+            QtGui.QIcon.Normal,
+            QtGui.QIcon.Off,
+        )
+        MainWindow.setWindowIcon(self.icon)
+
         self.centralwidget = QtWidgets.QWidget(MainWindow)  # Create a central widget
         self.centralwidget.setObjectName(
             "centralwidget"
